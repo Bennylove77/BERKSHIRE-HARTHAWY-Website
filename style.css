@@ -1,0 +1,93 @@
+
+      body {
+        color:rgb(0, 0, 128);
+        margin: 0px;
+        padding: 10px;
+        font-family: ;
+      }
+
+      a:link {
+        color: rgb(128, 0, 128);
+      }
+
+      a:visited {
+        color: rgb(255, 0, 0);
+      }
+
+      /* HEADER */
+      header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .brand {
+        display: flex;
+        gap: 4px;
+        align-items: baseline;
+      }
+
+      .big-fist-letter::first-letter {
+        font-size: 40px;
+      }
+
+      .inc {
+        font-size: small;
+      }
+
+      header > * {
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      /* TABLE */
+
+      main{
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+
+      table {
+        
+        width: 100%;
+      }
+
+      td {
+        width: 50%;
+        vertical-align: top;
+        position: relative;
+        padding: 10px 0px;
+      }
+
+      td::before {
+        content: "•";
+        position: absolute;
+        left: -15px;
+      }
+
+      td > p {
+        font-size: x-small;
+        margin-top: 5px;
+      }
+
+      /* FOOTER */
+
+      .geico-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .geico-sec > * {
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+
+      .insurance {
+        font-size: x-small;
+      }
+
+      .second-sec {
+        font-size: small;
+      }
+  
